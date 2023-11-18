@@ -1,0 +1,56 @@
+.panier {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.paniertitre {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.paniercontenu {
+  height: 65vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  padding-top: 5vh;
+}
+
+.jeux {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.tailleimagepanier {
+  height: 30vh;
+  width: 10vw;
+}
+
+.tailleimagepanier > img {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.paniervide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
