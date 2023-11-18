@@ -1,0 +1,22 @@
+.header {
+  height: 10vh;
+  width: 100vw;
+  background-color: var(--rouge);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header > a > p{
+  color: var(--blanc);
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.header > a > p:hover{
+  text-shadow: var(--noir) 0 0 10px;
+}
+
+.header > a{
+  text-decoration: none;
+}
